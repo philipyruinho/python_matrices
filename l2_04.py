@@ -2,15 +2,15 @@
 # coding: utf-8
 
 from os import system
-from matrizes.matriz import le_matriz, soma_matriz, imprimir_matriz
+from matrizes.matriz import cria_matriz, soma_matriz, imprimir_matriz
 
 # Limpa a tela
 system("clear || cls")
 
 # Constroi as matrizes
-matriz_a = le_matriz()
-matriz_b = le_matriz()
-matriz_c = le_matriz()
+matriz_a = cria_matriz()
+matriz_b = cria_matriz()
+matriz_c = cria_matriz()
 
 # Soma as matrizes
 AB = soma_matriz(matriz_a, matriz_b)
