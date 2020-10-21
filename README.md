@@ -8,15 +8,17 @@ It consists of a program that performs some basic operations with matrices.
 
 ### Functions
 
-:white_check_mark: cria_matriz() -> matrix dimension and values input
+:white_check_mark: le_matriz() -> receives the dimensions of the matrix
 
-:white_check_mark: cria_matriz_nula() -> creates a null matrix
+:white_check_mark: cria_matriz(lin, col) -> matrix values input
+
+:white_check_mark: cria_matriz_nula(lin, col) -> creates a null matrix
 
 :heavy_plus_sign: soma_matriz(A, B) -> adds two matrices
 
 :heavy_minus_sign: sub_matriz(A, B) -> subtracts two matrices
 
-:heavy_multiplication_x: multiplica_matriz(A, B) -> multiplies two matrix
+:heavy_multiplication_x: mult_matriz(A, B) -> multiplies two matrix
 
 :point_right: transposta_matriz(A) -> transposes a matrix
 
@@ -24,7 +26,13 @@ It consists of a program that performs some basic operations with matrices.
 
 :performing_arts: inverter_matriz(A) -> invert a matrix
 
-:printer: imprimir_matriz(A) -> prints a matrix
+:heavy_check_mark: valida_matriz_determinante(lin, col) -> checks if it is a quadratic matrix
+
+:computer: det_matriz(A) -> calculates the determinant of a matrix
+
+:shipit: cof_matriz(A) -> calculates a matrix cofactor
+
+:printer: imprime_matriz(A, "name") -> prints a matrix
 
 There are some files to exemplify the features explained above.
 

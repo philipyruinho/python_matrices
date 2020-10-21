@@ -1,4 +1,4 @@
-from matrizes.matriz import soma_matriz, sub_matriz, multiplica_matriz, transposta_matriz, imprimir_matriz, identidade_matriz
+from matrizes.matriz import soma_matriz, sub_matriz, mult_matriz, transposta_matriz, imprime_matriz, identidade_matriz
 
 # cria as matrizes
 A = [[2, 1], [-3, 4]]
@@ -16,7 +16,7 @@ BCT = sub_matriz(B, CT)
 A_BCT = soma_matriz(A, BCT)
 
 # multiplica a matriz
-resultado = multiplica_matriz(A_BCT, I)
+resultado = mult_matriz(A_BCT, I)
 
 # imprime a matriz
-imprimir_matriz(resultado, "Resultado")
+imprime_matriz(resultado, "Resultado")
